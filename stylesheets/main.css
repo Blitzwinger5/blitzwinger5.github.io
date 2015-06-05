@@ -172,6 +172,14 @@ section {
     border-color: #d8316f;
 }
 
+.banner-games {
+    height: 300px;
+    background-image: url(../images/Banner-Game.jpg);
+    border-bottom: 5px;
+    border-bottom-style: solid;
+    border-color: #d8316f;
+}
+
 .banner h1 {
     padding-top: 48px;
     text-align: center;
@@ -244,15 +252,15 @@ nav li p {
     background-image: url(../images/icons/Logo.png);
 }
 
-.about-page .about p, .contact p {
+.about-page .about p, .about-page .contact p {
     color: #d8316f;
 }
 
-.about-page .english p, .videos p {
+.about-page .english p, .about-page .videos p {
     color: #a53167;
 }
 
-.about-page .games p, .gallery p {
+.about-page .games p, .about-page .gallery p {
     color: #342e59;
 }
 
@@ -279,20 +287,45 @@ p a {
     background-color: #3980bf;
 }
 
+.footer-games {
+    background-color: #451859;
+}
+
 .english-page {
     background-image: url(../images/Background-English.jpg)
 }
 
-.english-page .about p, .contact p {
+.english-page .about p, .english-page .contact p {
     color: #41f2e0;
 }
 
-.english-page .english p, .videos p {
+.english-page .english p, .english-page .videos p {
     color: #3980bf;
 }
 
-.english-page .games p, .gallery p {
+.english-page .games p, .english-page .gallery p {
     color: #d83150;
+}
+
+.games-page .about p, .games-page .contact p {
+    color: #4a88bf;
+}
+
+.games-page .english p, .games-page .videos p {
+    color: #413f8c;
+}
+
+.games-page .games p, .games-page .gallery p {
+    color: #451859;
+}
+
+.games-page {
+    background-image: url(../images/Background-Games.jpg);
+}
+
+.presentation {
+    margin-left: 60px; 
+    margin-bottom: 50px;
 }
 
 .essay {
