@@ -58,6 +58,13 @@
 
 }
 
+a {
+    display: block;
+    text-decoration: none;
+    min-height: 135px;
+    max-height: 300px;
+}
+
 p {
     font-family: 'Drugs-Regular';
     font-size: 26px;
@@ -71,7 +78,7 @@ p {
 }
 
 h1 {
-    font-family: 'Blackout-Sunrise', sans-serif;
+    font-family: 'Blackout-2AM', sans-serif;
     font-size: 90px;
     font-weight: normal;
     font-style: normal;
@@ -140,7 +147,8 @@ section {
     width: 1080px;
     margin: 0 auto;
     text-align: left;
-    background-color: white
+    background-color: white;
+    position: relative;
 }
 
 .banner {
@@ -151,8 +159,9 @@ section {
     border-color: rgb(33, 46, 63);
 }
 
-.banner-home h1 {
-    padding-top: 10px;
+.banner h1 {
+    padding-top: 48px;
+    text-align: center;
 }
 
 .biography-home {
@@ -179,17 +188,45 @@ section {
     overflow: hidden;
 }
 
-.about {
-    width: 160px;
-}
-
 nav li {
     height: 135px;
     width: 160px;
     float: left;
+    text-align: center;
+}
+
+nav li img {
+    margin-top: 25px;
+    text-align: center;
+}
+
+nav li p {
+    margin-top: 10px;
+    text-align: center;
+    height: auto;
+}
+
+.gallery {
+    margin-left: 120px;
+}
+
+.about p, .contact p {
+    color: #f2cd5e;
+}
+
+.english p, .videos p {
+    color: #f29748;
+}
+
+.games p, .gallery p {
+    color: #f24b4b;
 }
 
 .logo {
     width: 120px;
     height: 178px;
+    position: absolute;
+    top: 7px;
+    left: 477px;
+    background-image: url(../images/icons/Logo.png);
 }
