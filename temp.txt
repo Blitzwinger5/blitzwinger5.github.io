@@ -1,0 +1,49 @@
+.english-page .english-image {
+    display: inline-block;
+    box-sizing: border-box;
+    background-image: url(../images/icons/English.png);
+    background-repeat: no-repeat;
+    width: 37px;
+    height: 44px;
+    padding-left: 37px;
+}
+
+.english-page .games-image {
+    display: inline-block;
+    box-sizing: border-box;
+    background-image: url(../images/icons/Games.png);
+    background-repeat: no-repeat;
+    width: 51px;
+    height: 44px;
+    padding-left: 51px;
+}
+
+.english-page .gallery-image {
+    display: inline-block;
+    box-sizing: border-box;
+    background-image: url(../images/icons/Galllery.png);
+    background-repeat: no-repeat;
+    width: 58px;
+    height: 44px;
+    padding-left: 58px;
+}
+
+.english-page .videos-image {
+    display: inline-block;
+    box-sizing: border-box;
+    background-image: url(../images/icons/Videos.png);
+    background-repeat: no-repeat;
+    width: 41px;
+    height: 44px;
+    padding-left: 41px;
+}
+
+.english-page .contact-image {
+    display: inline-block;
+    box-sizing: border-box;
+    background-image: url(../images/icons/Contact.png);
+    background-repeat: no-repeat;
+    width: 59px;
+    height: 44px;
+    padding-left: 59px;
+}
