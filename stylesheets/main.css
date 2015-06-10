@@ -129,6 +129,10 @@ body {
     background-image: url(../images/Background-About.jpg)
 }
 
+.gallery-page {
+    background-image: url(../images/Background-Gallery.jpg)
+}
+
 footer {
     background-color: rgb(33, 46, 63);
     height: 50px;
@@ -261,6 +265,21 @@ nav li p{
 .about-page .games p, .about-page .gallery p {
     transition: color .6s ease;
     color: #f24b4b;
+}
+
+.gallery-page .about p, .gallery-page .contact p {
+    transition: color .6s ease;
+    color: #ba9cd8;
+}
+
+.gallery-page .english p, .gallery-page .videos p {
+    transition: color .6s ease;
+    color: #433359;
+}
+
+.gallery-page .games p, .gallery-page .gallery p {
+    transition: color .6s ease;
+    color: #497263;
 }
 
 .logo {
@@ -667,6 +686,18 @@ p a {
     background-color: #451859;
 }
 
+.gallery-page .about:hover, .gallery-page .contact:hover {
+    background-color: #ba9cd8;
+}
+
+.gallery-page .english:hover, .gallery-page .videos:hover {
+    background-color: #433359;
+}
+
+.gallery-page .games:hover, .gallery-page .gallery:hover {
+    background-color: #497263;
+}
+
 .container nav li:hover p {
     color: white;
 }
@@ -803,4 +834,34 @@ nav li {
 
 .final-essay-image {
     margin-left: 50px;
+}
+
+.photos {
+    display: block;
+}
+
+.photos ul {
+    list-style: none;
+}
+
+.photos ul li {
+    display: inline;
+}
+
+.photos ul li a {
+    display: block;
+    float: left;
+    padding: 4px;
+    margin-right: 10px;
+    margin-bottom: 7px;
+    opacity: 0.75;
+    transition: all 0.3s linear
+}
+
+.photos ul li a:hover {
+    opacity: 1.0;
+}
+
+.photos ul li a img {
+    border: 6px solid #497263;
 }

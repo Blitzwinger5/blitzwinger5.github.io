@@ -1,11 +1,7 @@
-.english-page .about p, .english-page .contact p {
-    color: #41f2e0;
-}
-
-.english-page .english p, .english-page .videos p {
-    color: #3980bf;
-}
-
-.english-page .games p, .english-page .gallery p {
-    color: #d83150;
-}
+<a href="images/B3RVA-Flyer-1.jpg">
+             <a href="images/B3RVA-Flyer-2.jpg">
+             <a href="images/Headphone_Girl.jpg">
+             <a href="images/hip-hop-girl-wallpaper.jpg">
+             <a href="images/black-rock-wallpaper.jpg">
+             <a href="images/Soul-Eater-Wallpaper.jpg">
+             <a href="images/Kill-la-Kill-Wallpaper.jpg">
